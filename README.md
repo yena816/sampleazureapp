@@ -2,5 +2,6 @@
 
 [Cloud Project Design Doc.docx](https://github.com/yena816/sampleazureapp/files/10808880/Cloud.Project.Design.Doc.docx)
 
-![image](https://user-images.githubusercontent.com/42750252/220776931-1699529c-6f9b-4721-b111-72de4146c568.png)
+![Training Architecture - GCP Data Analytics and AIML - v 2 0](https://user-images.githubusercontent.com/42750252/220777306-a1402a3d-d67d-4b3a-a78c-24ce0949d530.png)
+
 
