@@ -17,3 +17,10 @@
 
 <p>The data displayed and ingested by the application will be stored on Azure SQL. Azure SQL is a fully managed database service that is build on SQL Server technology.</p>
 <p>When creating this database, it is critical to set server firewall rules to only allow traffic from your IP address during the development phase. </p>
+<p>The following SQL query is used to create the table of contacts in the database:
+CREATE TABLE contact (
+id int IDENTITY(1,1) PRIMARY KEY,
+firstname varchar(255),
+lastname varchar(255),
+msg varchar(255)
+);
