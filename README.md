@@ -24,3 +24,7 @@ firstname varchar(255),
 lastname varchar(255),
 msg varchar(255)
 );
+
+what - summary of the solution/service 
+why - requirements, use case, why you have built it, who will use it and how they will use it 
+how - explain how you built it, step by step development, configuration, process
