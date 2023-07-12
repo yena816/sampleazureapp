@@ -47,5 +47,5 @@ CREATE TABLE contact (
 SELECT * FROM contact;
 ```
 
-![image](https://github.com/yena816/sampleazureapp/assets/42750252/70aa40f6-2e1c-4807-a8c3-12800edf90d5)
+![image](https://github.com/yena816/sampleazureapp/assets/42750252/7b0585da-7d39-45c4-9c55-5f732431c7ec)
 
