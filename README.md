@@ -49,3 +49,5 @@ SELECT * FROM contact;
 
 ![image](https://github.com/yena816/sampleazureapp/assets/42750252/7b0585da-7d39-45c4-9c55-5f732431c7ec)
 
+<h2>Azure Key Vault</h2>
+<p>create key vault. add rbac. assign key vault secrets officer role to users and to app service app. </p>
