@@ -40,7 +40,7 @@ CREATE TABLE contact (
   msg varchar(255)
 ); 
 ``` 
-<p>After creating the table, a new SQL query is added to the OnPost method in the Contact model code. Now, when the Submit button is clicked, the query runs and inserts a new item into the table that includes the values of firstName, lastName, and message (Note: In the current state of the app, the login credentials for the database are hardcoded into the app's code. This is NOT recommended. The password should be stored as a key somewhere secure, but for the purpose of keeping this app simple, the values are in the code). </p>
+<p>After creating the table, a new SQL query is added to the OnPost method in the Contact model code. Now, when the Submit button is clicked, the query runs and inserts a new item into the table that includes the values of firstName, lastName, and message. Note: The credentials to access the database need to be stored securely in Azure Key Vault. See the next section for steps to set up the Key Vault. </p>
 <p>To verify that the data submission worked, the following SQL query can be run in the Azure portal Query editor: </p>
 
 ```
@@ -50,4 +50,4 @@ SELECT * FROM contact;
 ![image](https://github.com/yena816/sampleazureapp/assets/42750252/7b0585da-7d39-45c4-9c55-5f732431c7ec)
 
 <h2>Azure Key Vault</h2>
-<p>create key vault. add rbac. assign key vault secrets officer role to users and to app service app. </p>
+<p>Azure Key Vault is a service that allows you to store your secrets securely. First, you need to create a key vault by using the Azure Portal or the Azure CLI. For this project, the Portal was used. After creating the key vault, you need to add Role Based Access Control capabilities. Then, assign the Key Vault Secrets Reader role to the App Service app using a managed identity. </p>
